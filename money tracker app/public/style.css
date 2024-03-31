@@ -1,0 +1,123 @@
+/* body of the html page */
+body{
+    background-color: #1a1a2e; 
+    font-family: 'Poppins', sans-serif; 
+    padding: 10px;
+    margin: 0;
+}
+/* headings */
+h1,h2{
+    text-align: center;  /* to align the headings in center */
+    color: rgb(97, 194, 227);   /* to color the headings */
+    margin: 20px;  
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* selection of input */
+.input-section{   
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+/* label of input */
+.input-section label{  
+    font-family: Georgia, 'Times New Roman', Times, serif; /* different fonts */ 
+    color: lightgrey;
+    font-weight: 700;
+    padding: 20px;
+    margin-left: 10px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+/* date label */
+.input-section #date_input{
+    padding-right: 30px;
+    margin-right: 20px;
+}
+/* input of users */
+.input-section input{ 
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 7px; 
+    padding-left: 20px;
+    margin-right: 100px;   
+}
+/* button of user */
+.input-section button{ 
+    background-color: #ff5c33; 
+    color : #271111; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase; /* to make the text in upper case */
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer; /* to make the cursor pointer */
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 20px;
+}
+/* effect for ADD button  */
+.input-section button:hover{ /* hover effect */
+    background-color: rgb(10, 185, 10);
+    color: white;    
+}
+/* table */
+
+.expenses-list{ /* list of expenses */
+    margin: 40px;
+    color: lightgrey;
+}
+
+table{ /* table of expenses */
+    width: 100%;
+    border-collapse: collapse;/* to collapse the table */
+}
+/* table head and table data */
+th,td{ 
+    border: 1px solid l#cccccc;/* to make the border */
+    padding: 7px;
+    text-align: left;
+}
+/* table head */
+th{
+    background-color: #f9f9f9;
+    color:lightseagreen;
+}
+/* tabel data */
+td{ 
+    text-align: left;
+    background-color:  #2c2c42;
+
+}
+/* effect for the table data */
+tbody tr:hover td{ /* hover effect */
+        background-color: #3d3d5c; 
+}
+/* total amount */
+tfoot td{ 
+    font-weight: bold;
+}
+/* when we enter data we get a delete button */
+.delete-btn{  
+    padding: 5px 10px;
+    background-color: rgb(175, 25, 25);
+    color: white;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+/* select option for catergory */
+#category_select { 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px; /* border radius */
+    background-color: #ffffff; 
+    color: #333333; /* text color */
+    appearance: none; /* to remove the default arrow */
+    cursor: pointer; /* to make the cursor pointer */
+  }
